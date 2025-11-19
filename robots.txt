@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /services
+Allow: /portfolio
+Allow: /about
+Allow: /investors
+
+# Disallow private/admin areas (none currently exist)
+# Disallow: /admin
+# Disallow: /login
+# Disallow: /dashboard
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://example.com/sitemap.xml
